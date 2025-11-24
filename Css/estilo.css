@@ -1,0 +1,73 @@
+/* Rodapé /
+footer {
+ text-align: center;
+ / Regras adicionais para fixar o rodapé se necessário, mas não foram explicitamente solicitadas além do alinhamento */
+}
+footer p {
+ font-weight: bold;
+ padding: 10px;
+}
+
+/* Imagem do Header */
+header img {
+ height: 70px;
+ width: 70px;
+}
+
+/* Banner/Carousel */
+#section-banners img {
+ height: 500px;
+}
+
+/* Cards/Mais Vendidos */
+#section-vendidos {
+ text-align: center;
+}
+#section-vendidos h2 {
+ font-weight: bold;
+ padding: 20px;
+}
+#section-vendidos img {
+ height: 300px;
+ border-radius: 10px;
+}
+#section-vendidos .card {
+ margin: 5px;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+}
+#section-vendidos .preco {
+ color: red;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+/* Botão Voltar ao Topo */
+#voltar-topo {
+ position: fixed;
+ bottom: 5px;
+ right: 50px;
+}
+
+/* Login/Cadastro Estilos /
+#section-login {
+ margin-top: 100px;
+ / Colocar width: 100% no input */
+}
+#section-login h1 {
+ text-align: center;
+}
+#section-login input {
+ width: 100%;
+}
+#section-cadastro {
+ padding: 5px;
+ text-align: center;
+ background-color: #fff;
+}
+
+/* Oculta o formulário de cadastro inicialmente */
+#form-cadastrar {
+ padding: 50px;
+ display: none;
+}
